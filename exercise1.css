@@ -1,11 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'Moderustic';
+    src: url('Fonts/Moderustic-VariableFont_wght.ttf');
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Moderustic', sans-serif;
     background-color: #ffffff;
     color: #000000;
 }
 
 header {
-    background-color: #85c6deb4;
+    background-color: hsla(290, 71%, 23%, 0.894);
     border-radius: 20px;
 
     color: white;
@@ -17,8 +24,10 @@ header {
     margin-bottom: 0%
 }
 
-h1 {
-    
+h1,h2 {
+    font-family: 'Anton',sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav ul {
@@ -46,7 +55,7 @@ a {
     }
 
 section {
-    background-color: #cfe8ef7d;
+    background-color: hsla(290, 72%, 33%, 0.351);
     margin-top: 20px;
     display: flexbox;
     flex-direction:column;
@@ -67,7 +76,7 @@ section p {
 }
 
 footer {
-    background-color: #85C7DE;
+    background-color: hsla(290, 71%, 23%, 0.894);
     color: white;
     text-align: center;
 }
